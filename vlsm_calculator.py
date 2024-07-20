@@ -1,5 +1,5 @@
 import ipaddress
-// Vlsm Calculator
+# Vlsm Calculator
 def calculate_vlsm(network_address_str, subnet_sizes):
     try:
         network_address = ipaddress.IPv4Network(network_address_str, strict=False)
